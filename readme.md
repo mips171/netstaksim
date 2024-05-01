@@ -13,6 +13,10 @@ I also added a "trace route" function which just accumulates the path that the m
 Go Playground link: <https://goplay.tools/snippet/grpNXvSd1r5>
 
 ```go
+    sourceHost := net.Hosts[Address{2}]
+    destHost := net.Hosts[Address{8}]
+    msg := Message{Source: *sourceHost, Destination: *destHost, Content: "Hello, World!"}
+
     bfsDeliverMessage(msg, sourceHost)
     // at node {2}
     // at node {1}
