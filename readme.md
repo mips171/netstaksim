@@ -9,6 +9,7 @@ A message (analogous to a packet) has a source, destination and content.
 The way I deliver a message from one host to another is just BFS, so we get shortest path by default.
 
 I also added a "trace route" function which just accumulates the path that the message took along the path, not the search, and output it :)
+
 Go Playground link: <https://goplay.tools/snippet/XOTKWKIew4F>
 
 ```go
