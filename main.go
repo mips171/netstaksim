@@ -13,7 +13,8 @@ type Host struct {
 }
 
 func (h *Host) Receive(m Message) {
-	fmt.Printf("[%d] receiveved message from [%d]: %s\n", h.Address.Addr, m.Source.Address.Addr, m.Content)
+	fmt.Printf("[%d] receiveved message from [%d]: %s\n",
+		h.Address.Addr, m.Source.Address.Addr, m.Content)
 }
 
 type Message struct {
