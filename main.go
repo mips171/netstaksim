@@ -89,6 +89,7 @@ func main() {
 	// at node {7}
 	// at node {8}
 	// [8] receiveved message from [2]: Hello, World!
+	// Path taken aka route trace: 2 1 8
 	//
 	// Although there were other valid routes from 8 to 2, (such as 2, 3, 6, 8),
 	// BFS took the shortest path (2, 1 , 8) like it is supposed to.
