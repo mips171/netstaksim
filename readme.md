@@ -10,7 +10,7 @@ The way I deliver a message from one host to another is just BFS, so we get shor
 
 I also added a "trace route" function which just accumulates the path that the message took along the path, not the search, and output it :)
 
-Go Playground link: <https://goplay.tools/snippet/XOTKWKIew4F>
+Go Playground link: <https://goplay.tools/snippet/grpNXvSd1r5>
 
 ```go
     bfsDeliverMessage(msg, sourceHost)
